@@ -54,6 +54,9 @@ check of rewards
 - [#624](https://github.com/babylonlabs-io/babylon/pull/624) Make keeper's collections private in `x/incentive` module
 - [#643](https://github.com/babylonlabs-io/babylon/pull/643) Fix flaky test `FuzzBTCDelegation`
 - [#696](https://github.com/babylonlabs-io/babylon/pull/696) Restore zoneconcierge queries in query client
+- [#805](https://github.com/babylonlabs-io/babylon/pull/805) chore: upgrade the make file: linting
+- [#816](https://github.com/babylonlabs-io/babylon/pull/816) chore: upgrade the make file: gosec
+- [#821](https://github.com/babylonlabs-io/babylon/pull/821) Add import/export genesis logic in `x/btccheckpoint` module
 
 ### State Machine Breaking
 
@@ -66,8 +69,13 @@ This PR contains a series of PRs on multi-staking support and BTC staking integr
 - [#741](https://github.com/babylonlabs-io/babylon/pull/741) chore: fix register consumer CLI
 - [#731](https://github.com/babylonlabs-io/babylon/pull/731) chore: fix block timeout in Babylon client
 - [#525](https://github.com/babylonlabs-io/babylon/pull/525) fix: add back `NewIBCHeaderDecorator` post handler
-- [#793](https://github.com/babylonlabs-io/babylon/pull/793) fix: BLS key will be overwritten when the password is not retrieved
 - [#802](https://github.com/babylonlabs-io/babylon/pull/802) fix: clean up resources allocated by TmpAppOptions
+
+## v1.0.1
+
+### Bug fixes
+
+- [#793](https://github.com/babylonlabs-io/babylon/pull/793) fix: BLS key will be overwritten when the password is not retrieved
 
 ## v1.0.0
 
